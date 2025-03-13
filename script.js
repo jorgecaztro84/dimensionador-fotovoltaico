@@ -3,7 +3,7 @@ document.getElementById("calculadoraForm").addEventListener("submit", function (
 
     // Obtener valores del formulario
     const consumo = parseFloat(document.getElementById("consumo").value);
-    const potenciaPanel = parseFloat(document.getElementById("potenciaPanel").value);
+    const potenciaPanel = parseFloat(document.getElementById("potenciaPanel").value)|| 600; // Valor predeterminado: 600W
     const horasSol = parseFloat(document.getElementById("horasSol").value) || 5; // Valor predeterminado: 5 HSP
     const autonomia = parseFloat(document.getElementById("autonomia").value) || 0; // Si no se ingresa, es 0 (on-grid)
 
