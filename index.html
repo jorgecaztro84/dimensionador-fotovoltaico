@@ -17,21 +17,21 @@
         <h1>Dimensionador de Sistemas Fotovoltaicos</h1>
 
         <!-- Formulario para ingresar datos -->
-        <form id="calculadoraForm">
-            <label for="consumo">Consumo mensual (kWh):</label>
-            <input type="number" id="consumo" required>
+<form id="calculadoraForm">
+    <label for="consumo">Consumo mensual (kWh):</label>
+    <input type="number" id="consumo" required>
 
-            <label for="potenciaPanel">Potencia del panel (W):</label>
-            <input type="number" id="potenciaPanel" value="600" required placeholder="600">
+    <label for="potenciaPanel">Potencia del panel (W):</label>
+    <input type="number" id="potenciaPanel" value="600" required placeholder="600">
 
-            <label for="horasSol">Horas de sol pico al día (HSP):</label>
-            <input type="number" id="horasSol" step="0.1" placeholder="5 (predeterminado)">
+    <label for="horasSol">Horas de sol pico al día (HSP):</label>
+    <input type="number" id="horasSol" step="0.1" placeholder="5 (predeterminado)">
 
-            <label for="autonomia">Autonomía de baterías (horas):</label>
-            <input type="number" id="autonomia" placeholder="Opcional (sistema on-grid)">
+    <label for="autonomia">Autonomía de baterías (horas):</label>
+    <input type="number" id="autonomia" placeholder="Opcional (sistema on-grid)">
 
-            <button type="submit">Calcular</button>
-        </form>
+    <button type="submit">Calcular</button>
+</form>
 
         <!-- Resultados -->
         <div id="resultados">
