@@ -71,4 +71,4 @@ La aplicación realiza los siguientes cálculos:
 ### **Instalación Local**
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone [(https://github.com/jorgecaztro84/dimensionador-fotovoltaico)
